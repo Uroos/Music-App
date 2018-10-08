@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Music App</string>
+    <string name="songs">songs</string>
+    <string name="albums">albums</string>
+    <string name="now_playing">now playing</string>
+    <string name="store">store</string>
+    <string name="search">search</string>
+    <string name="text_songs_activity">This activity will display the list of songs and artists using the ListView. This activity is reached from the main screen.</string>
+    <string name="text_albums_activity">This activity is opened from the main screen and displays album info in a GridView layout. The album info will be populated by an album class(not implemented) which will contain an album image, artist name and album name.</string>
+    <string name="text_store_activity">This activity is reached from main screen and will load items from an online store in a ListView layout.</string>
+    <string name="text_search_activity">This activity is reached from the main activity and is used by the user to search for a particular song.</string>
+    <string name="hint_search">Enter a song name</string>
+    <string name="go_to_albums">go to albums</string>
+    <string name="go_to_store">go to store</string>
+    <string name="go_to_search">go to search</string>
+</resources>

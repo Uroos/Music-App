@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wedding_day_blues"
+    android:orientation="vertical"
+    tools:context="com.example.home.mymusicapp.MainActivity">
+
+    <TextView
+        android:id="@+id/songs"
+        style="@style/MainScreen"
+        android:text="@string/songs" />
+
+    <TextView
+        android:id="@+id/albums"
+        style="@style/MainScreen"
+        android:text="@string/albums" />
+
+    <TextView
+        android:id="@+id/nowplaying"
+        style="@style/MainScreen"
+        android:text="@string/now_playing" />
+
+    <TextView
+        android:id="@+id/store"
+        style="@style/MainScreen"
+        android:text="@string/store" />
+
+    <TextView
+        android:id="@+id/search"
+        style="@style/MainScreen"
+        android:text="@string/search" />
+</LinearLayout>
